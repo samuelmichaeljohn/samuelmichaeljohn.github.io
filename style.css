@@ -1,0 +1,31 @@
+body {
+    color: rgb(202, 202, 200);
+}
+
+h1 {
+    color:#d2d2e2;
+    font-size: 120px;
+    font-family: 'Dosis', sans-serif;
+}
+
+h2 {
+    color:rgb(3, 3, 14);
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+    color:rgb(3, 3, 14);
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+form {
+    color:rgb(3, 3, 14);
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+li:hover { color:rgb(134, 53, 181);
+    
+}
