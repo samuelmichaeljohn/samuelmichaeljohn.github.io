@@ -1,0 +1,62 @@
+
+
+
+@import url("components/container.css");
+@import url("components/navbar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+
+body {
+    color: rgb(202, 202, 200);
+    margin: 8px;
+    border: 16px;
+}
+
+h1 {
+    color:#d2d2e2;
+    font-size: 80px;
+    font-family: 'Dosis', sans-serif;
+}
+
+h2 {
+    color:rgb(3, 3, 14);
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    color:#d2d2e2;
+    font-size: 80px;
+    font-family: 'Dosis', sans-serif;
+}
+
+ul {
+    color:rgb(3, 3, 14);
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+form {
+    color:rgb(3, 3, 14);
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+li:hover { color:rgb(134, 53, 181);
+}
+
+.titles-small {
+    font-size: 36px;
+    color:rgb(242, 239, 245);
+    display: inline-block;
+}
+
+.list-inline {
+    list-style: none;
+    padding: 0;
+}
+
+.list-inline li {
+    display: inline-block;
+    
+}
