@@ -1,0 +1,14 @@
+.nav-bar {
+    padding: 10px;
+    margin: 5px;
+    box-shadow: 0 5px 15px rgb(227 226 228);
+    width: 800px;
+    margin: 0 auto;
+    background-color:rgb(70, 51, 133);
+    display: inline-block;
+}
+
+.nav-bar h1 h2 {
+    font-size: 16px;
+    color:rgb(202, 202, 200);
+}

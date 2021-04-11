@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/d9ab1a65c9.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@600&family=Montserrat&display=swap" rel="stylesheet">
@@ -11,20 +11,23 @@
   </head>
   
   <body>
-    <div>
-      <img src="images/logo.jpg" alt="wtb logo" width="75" 
-      height="75">
-      <h1> What to be ?</h1>
-      <h2>Login</h2>
-      <h2>Contact us</h2>
+    <div class="nav-bar">
+      <img src="images/logo.jpg" alt="wtb logo" width="50" 
+      height="50">
+      <h1 class="titles-small"> What to be ?</h1>
+      <a href="www.google.com" class="btn">Login</a>
+      <a href="www.google.com" class="btn">Contact us</a>
     </div>
     
-    <div>
-      <h1> What to be ?</h1>
-      <h2> Showing pupils the huge variety of jobs available to them.</h2> <br>
-      <h2> Easily accessible descriptions, clear explanations of what occupations entail and video profiles of employees from a variety of back grounds. 
-      <br> <br> Search and discover jobs you did not even know existed.</h2>
+    <div class="banner" style="background-image: url(images\fireperson.jpg);">
+      <div class="container">
+        <h1> What to be ?</h1>
+        <h2> Showing pupils the huge variety of jobs available to them.</h2> <br>
+        <h2> Easily accessible descriptions, clear explanations of what occupations entail and video profiles of employees from a variety of back grounds. 
+        <br> <br> Search and discover jobs you did not even know existed.</h2>
+      </div>
     </div>
+      
     
     <div>
       <form>
@@ -34,13 +37,13 @@
       </form>
     </div>
     
-  </body>
-  
-  <footer>
-      <ul>
+    <div>
+      <ul class="list-inline">
         <li><i class="fab fa-facebook-square"></i></li>
         <li><i class="fab fa-twitter-square"></i></li>
         <li><i class="fab fa-instagram-square"></i></li>
       </ul>
-  </footer>
+    </div>
+
+  </body>
 </html>
